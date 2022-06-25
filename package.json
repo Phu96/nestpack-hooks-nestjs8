@@ -1,6 +1,6 @@
 {
   "name": "@nestpack/hooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hooks Module for NestJS projects",
   "homepage": "https://github.com/nestpack/hooks",
   "main": "dist/index.js",
@@ -13,9 +13,11 @@
   },
   "author": "Harry Horton",
   "license": "MIT",
+  "peerDependencies": {
+    "@nestjs/common": "^8.0.0",
+    "@nestjs/core": "^8.0.0"
+  },
   "dependencies": {
-    "@nestjs/common": "^7.4.4",
-    "@nestjs/core": "^7.4.4",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^6.6.3",
     "typescript": "^4.0.3"
